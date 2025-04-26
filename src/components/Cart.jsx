@@ -7,7 +7,7 @@ function Cart({ cartItems, removeFromCart }) {
     <div className="cart">
       <h2>Cart</h2>
       {cartItems.length === 0 ? (
-        <p>Your cart is empty.</p>
+        <p>Your cart is empty</p>
       ) : (
         <ul>
           {cartItems.map((item) => (
